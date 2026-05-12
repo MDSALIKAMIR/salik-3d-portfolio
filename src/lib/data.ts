@@ -137,29 +137,3 @@ export const EXPERIENCE = [
   },
 ];
 
-export const TESTIMONIALS = [
-  {
-    name: "Rahul Verma",
-    role: "Startup Founder",
-    avatar: "RV",
-    content:
-      "Salik built our entire web platform from scratch. His attention to detail and the animations he added made our product look world-class. Highly recommended!",
-    rating: 5,
-  },
-  {
-    name: "Priya Sharma",
-    role: "UI/UX Lead",
-    avatar: "PS",
-    content:
-      "Working with Salik was an amazing experience. He understood our design vision perfectly and delivered a site that exceeded all our expectations.",
-    rating: 5,
-  },
-  {
-    name: "Amit Kumar",
-    role: "Tech Entrepreneur",
-    avatar: "AK",
-    content:
-      "The e-commerce platform Salik built for us has significantly boosted our online sales. Clean code, great performance, and stunning design.",
-    rating: 5,
-  },
-];
