@@ -1,3 +1,7 @@
+export default function ServicesSection() {
+  return null;
+}
+{/*
 "use client";
 
 import { motion } from "framer-motion";
@@ -26,38 +30,38 @@ export default function ServicesSection() {
               transition={{ delay: i * 0.1, duration: 0.6 }}
               whileHover={{ scale: 1.02, y: -5 }}
             >
-              {/* Top glow on hover */}
+               *Top glow on hov
               <div
                 className="absolute top-0 left-0 right-0 h-0.5 opacity-0 group-hover:opacity-100 transition-opacity"
                 style={{ background: `linear-gradient(90deg, transparent, #00d4ff, transparent)` }}
               />
 
-              {/* Background gradient */}
+               Background gradient 
               <div
                 className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
                 style={{ background: `radial-gradient(circle at top left, rgba(0,212,255,0.05), transparent 60%)` }}
               />
 
               <div className="relative z-10">
-                {/* Icon */}
+                 Icon 
                 <div className="text-4xl mb-4">{service.icon}</div>
 
-                {/* Number */}
+                 Number 
                 <div className="text-5xl font-black text-white/03 font-space absolute top-4 right-4 select-none">
                   0{service.id}
                 </div>
 
-                {/* Title */}
+                 Title 
                 <h3 className="text-lg font-bold text-white mb-3 font-space group-hover:text-neon-blue transition-colors">
                   {service.title}
                 </h3>
 
-                {/* Description */}
+                 Description 
                 <p className="text-white/50 text-sm leading-relaxed mb-5">
                   {service.description}
                 </p>
 
-                {/* Features */}
+                 Features 
                 <ul className="space-y-2">
                   {service.features.map((feature) => (
                     <li key={feature} className="flex items-center gap-2 text-sm text-white/60">
@@ -74,3 +78,4 @@ export default function ServicesSection() {
     </SectionWrapper>
   );
 }
+*/}

@@ -28,7 +28,7 @@ export const SKILLS = [
   { name: "Python", level: 90, category: "backend", icon: "🐍" }
 ];
 
-export const SERVICES = [
+{/*export const SERVICES = [
   {
     id: 1,
     title: "Frontend Development",
@@ -70,6 +70,7 @@ export const SERVICES = [
     gradient: "from-pink-500 to-rose-500",
   },
 ];
+*/}
 
 export const PROJECTS = [
   {

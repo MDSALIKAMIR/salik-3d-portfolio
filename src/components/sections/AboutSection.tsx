@@ -50,7 +50,11 @@ export default function AboutSection() {
                     <div className="w-full h-full rounded-full bg-dark-700" />
                   </div>
                   <div className="absolute inset-1 rounded-full bg-gradient-to-br from-neon-blue/20 to-neon-purple/20 flex items-center justify-center">
-                    <span className="text-4xl font-black gradient-text font-space">MSA</span>
+                  <img
+                     src="/my-photo.png"
+                     alt="Md Salik Amir"
+                     className="w-full h-full object-cover rounded-full"
+                   />
                   </div>
                 </div>
 
@@ -67,7 +71,7 @@ export default function AboutSection() {
                   {[
                     { Icon: MapPin, text: PORTFOLIO_DATA.location },
                     { Icon: Mail, text: PORTFOLIO_DATA.email },
-                    { Icon: GraduationCap, text: "Computer Science Student" },
+                    { Icon: GraduationCap, text: "BCA Student" },
                     { Icon: Code2, text: "Open to Opportunities" },
                   ].map(({ Icon, text }, i) => (
                     <div key={i} className="flex items-center gap-3 text-sm text-white/60">
