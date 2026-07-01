@@ -103,10 +103,9 @@ export default function HeroSection() {
             >
               <TypeAnimation
                 sequence={[
-                  "Full Stack Developer", 2000,
                   "Frontend Developer", 2000,
-                  "MERN Stack Developer", 2000,
-                  "UI/UX Designer", 2000,
+                  "Web Developer", 2000,
+                  "DevOps Enthusiast", 2000,
                 ]}
                 wrapper="span"
                 speed={50}
@@ -132,8 +131,10 @@ export default function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5 }}
             >
-              <motion.button
-                onClick={() => document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })}
+             {/* <motion.button */}
+                <motion.a
+                  href="https://wa.me/917858802094"
+                   target="_blank"
                 className="px-8 py-3.5 rounded-full font-bold text-dark-900 font-space text-sm tracking-wide"
                 style={{
                   background: "linear-gradient(135deg, #00d4ff, #8b5cf6)",
@@ -142,11 +143,13 @@ export default function HeroSection() {
                 whileHover={{ scale: 1.05, boxShadow: "0 0 40px rgba(0,212,255,0.55)" }}
                 whileTap={{ scale: 0.97 }}
               >
-                View Projects
-              </motion.button>
+                Hire Me {/*view project change into hire me*/}
+                </motion.a>
+                
+             { /*</motion.button>*/}
 
               <motion.a
-                href="/resume.pdf" 
+                href="/Md Salik Amir_Resume.pdf" 
                 download
                 className="px-8 py-3.5 rounded-full font-bold text-neon-blue text-sm font-space tracking-wide flex items-center gap-2 glass"
                 style={{ border: "1px solid rgba(0,212,255,0.3)" }}

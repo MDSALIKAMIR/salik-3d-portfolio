@@ -6,10 +6,10 @@ import SectionWrapper, { SectionTitle } from "@/components/ui/SectionWrapper";
 import { PORTFOLIO_DATA } from "@/lib/data";
 
 const stats = [
-  { label: "Projects Built", value: "10+", icon: "🚀" },
-  { label: "Technologies", value: "8", icon: "⚡" },
-  { label: "Months Experience", value: "3", icon: "📅" },
-  { label: "Happy Clients", value: "5+", icon: "⭐" },
+  { label: "Projects Built", value: "3+", icon: "🚀" },
+  { label: "Technologies", value: "10", icon: "⚡" },
+  { label: "Months Experience", value: "1", icon: "📅" },
+ {/* { label: "Happy Clients", value: "5+", icon: "⭐" },*/}
 ];
 
 export default function AboutSection() {
@@ -63,7 +63,7 @@ export default function AboutSection() {
                   {PORTFOLIO_DATA.name}
                 </h3>
                 <p className="text-neon-blue text-center text-sm mb-6 font-space tracking-wide">
-                  Full Stack Developer
+                  DevOps Enthusiast
                 </p>
 
                 {/* Details */}

@@ -6,7 +6,7 @@ import { useInView } from "react-intersection-observer";
 import SectionWrapper, { SectionTitle } from "@/components/ui/SectionWrapper";
 import { SKILLS } from "@/lib/data";
 
-const CATEGORIES = ["all", "frontend", "backend", "animation", "tools"];
+const CATEGORIES = ["all", "frontend", "backend", "Automation", "tools"];
 
 function SkillBar({ skill, inView }: { skill: typeof SKILLS[0]; inView: boolean }) {
   return (

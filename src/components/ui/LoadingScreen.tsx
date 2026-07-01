@@ -83,7 +83,7 @@ export default function LoadingScreen() {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.5 }}
             >
-              FULL STACK DEVELOPER
+              DevOps Enthusiast
             </motion.p>
 
             {/* Progress bar */}

@@ -88,7 +88,7 @@ export default function Navbar() {
               </button>
             ))}
             <motion.a
-              href="/resume.pdf"
+              href="/Md Salik Amir_Resume.pdf"
               download
               className="px-5 py-2 rounded-full text-sm font-semibold text-dark-900 font-space"
               style={{
