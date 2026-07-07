@@ -70,7 +70,71 @@ export const SKILLS = [
   },
 ];
 */}
+// lib/data.ts
 
+export interface Certificate {
+  id: string;
+  title: string;
+  issuer: string;
+  date: string; // e.g. "March 2025"
+  image: string; // path in /public, e.g. "/certificates/aws-cloud.png"
+  credentialUrl?: string;
+  description?: string;
+  skills?: string[];
+}
+
+export const CERTIFICATES: Certificate[] = [
+   {
+    id: "cert-1",
+    title: "Cybersecurity Symposium",
+    issuer: "AKATI Security",
+    date: "19 Oct 2024",
+    image: "/certificates/akati.jpg",
+  },
+    {
+    id: "cert-2",
+    title: "Digital Productivity",
+    issuer: "NIIT Foundation",
+    date: "10 Jan 2025",
+    image: "/certificates/niit.jpg",
+  },
+   {
+    id: "cert-3",
+    title: "Business Intelligence Using Advanced Excel & Power BI",
+    issuer: "ExcelR",
+    date: "20 Mar 2025",
+    image: "/certificates/excelr.jpg",
+  },
+    {
+    id: "cert-4",
+    title: "SQL and Relational Databases 101",
+    issuer: "IBM",
+    date: "08 Aug 2025",
+    image: "/certificates/ibm-sql.jpg",
+  },
+    {
+    id: "cert-5",
+    title: "Python 101 for Data Science",
+    issuer: "IBM",
+    date: "09 Aug 2025",
+    image: "/certificates/ibm-python.jpg",
+  },
+    {
+    id: "cert-6",
+    title: "Data Science Tools ",
+    issuer: "IBM",
+    date: "19 May 2026",
+    image: "/certificates/ibm-datasciencetools.jpg",
+  },
+  {
+    id: "cert-7",
+    title: "AI Webinar",
+    issuer: "GUVI × HCL",
+    date: "11 Apr 2026",
+    image: "/certificates/guvi-hcl.jpeg",
+  },
+ 
+];
 export const PROJECTS = [
  {
   id: 1,

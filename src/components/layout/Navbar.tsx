@@ -4,12 +4,14 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { label } from "framer-motion/client";
 
 const NAV_ITEMS = [
   { label: "Home", href: "#home" },
   { label: "About", href: "#about" },
   { label: "Skills", href: "#skills" },
   //{ label: "Services", href: "#services" },
+  {label: "Certificate", href: "#certificate"},
   { label: "Projects", href: "#projects" },
   { label: "Contact", href: "#contact" },
 ];

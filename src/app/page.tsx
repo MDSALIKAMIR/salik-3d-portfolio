@@ -12,6 +12,7 @@ import SkillsSection from "@/components/sections/SkillsSection";
 import ProjectsSection from "@/components/sections/ProjectsSection";
 import ExperienceSection from "@/components/sections/ExperienceSection";
 import ContactSection from "@/components/sections/ContactSection";
+import CertificateSection from "@/components/sections/CertificateSection";
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
         <HeroSection />
         <AboutSection />
         <SkillsSection />
+        <CertificateSection />
         {/* <ServicesSection /> */}
         <ProjectsSection />
         <ExperienceSection />
